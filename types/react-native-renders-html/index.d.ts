@@ -4,7 +4,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.0
 
-declare module "react-native-render-html" {
+declare module "react-native-renders-html" {
   import { ReactNode, Component } from "react";
   import {
     StyleProp,
