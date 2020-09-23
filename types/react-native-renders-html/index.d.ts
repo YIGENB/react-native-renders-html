@@ -215,7 +215,7 @@ declare module "react-native-renders-html" {
   export = HTML;
 }
 
-declare module "react-native-render-html/src/HTMLUtils" {
+declare module "react-native-renders-html/src/HTMLUtils" {
   type HTMLNode = any;
   /**
    * Returns an array with the tagname of every parent of a node or an empty array if nothing is found.

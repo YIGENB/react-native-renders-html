@@ -121,11 +121,11 @@ export default class HTML extends PureComponent {
                     this.setState({ errorLoadingRemoteURL: true, loadingRemoteURL: false });
                 }
             } catch (err) {
-                console.warn('react-native-render-html', `Couldn't fetch remote HTML from uri : ${uri}`);
+                console.warn('react-native-renders-html', `Couldn't fetch remote HTML from uri : ${uri}`);
                 return false;
             }
         } else {
-            console.warn('react-native-render-html', 'Please provide the html or uri prop.');
+            console.warn('react-native-renders-html', 'Please provide the html or uri prop.');
         }
     }
 
